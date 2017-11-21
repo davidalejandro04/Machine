@@ -1,0 +1,40 @@
+Mejor resultado:
+
+Polinomial:
+Orden: 3
+0.7636
+En C=3.359  gamma=0.02
+En C=784.75  gamma=0.004281
+3.359 0.022
+
+
+
+Orden: 4
+0.578
+En C=0.000010  gamma=1.29
+
+
+Orden: 5
+0.732
+En C=1  gamma=0.059948
+
+
+
+Orden: 6
+0.58
+En C=0.021544  gamma=0.166
+
+
+Orden: 7
+0.572
+En C=100000 gamma=0.0215
+
+Orden 21:
+0.558
+En C=1 gamma=3.59
+
+Gaussiano:
+0.808
+
+En C=350.0 gamma=0.00285
+

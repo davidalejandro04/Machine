@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests
+# Build directory: /home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(CMake.List "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ListTest.cmake")
+add_test(CMake.VariableWatch "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/VariableWatchTest.cmake")
+add_test(CMake.Include "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/IncludeTest.cmake")
+add_test(CMake.FindBase "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/FindBaseTest.cmake")
+add_test(CMake.Toolchain "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ToolchainTest.cmake")
+add_test(CMake.GetFilenameComponentRealpath "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake")
+add_test(CMake.Version "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/VersionTest.cmake")
+add_test(CMake.Message "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/MessageTest.cmake")
+add_test(CMake.File "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/FileTest.cmake")
+add_test(CMake.ImplicitLinkInfo "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ImplicitLinkInfoTest.cmake")
+add_test(CMake.ModuleNotices "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ModuleNoticesTest.cmake")
+add_test(CMake.GetProperty "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/GetPropertyTest.cmake")
+add_test(CMake.If "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/IfTest.cmake")
+add_test(CMake.String "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/StringTest.cmake")
+add_test(CMake.Math "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/MathTest.cmake")
+add_test(CMake.CMakeMinimumRequired "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake")
+add_test(CMake.CompilerIdVendor "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/CompilerIdVendorTest.cmake")
+add_test(CMake.ProcessorCount "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-DKWSYS_TEST_EXE=/home/jotunheim/Mashine/cmake-3.9.6/Source/kwsys/cmsysTestsCxx" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ProcessorCountTest.cmake")
+add_test(CMake.PushCheckState "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/PushCheckStateTest.cmake")
+add_test(CMake.While "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/WhileTest.cmake")
+add_test(CMake.CMakeHostSystemInformation "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/CMakeHostSystemInformationTest.cmake")
+add_test(CMake.FileDownload "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/FileDownloadTest.cmake")
+set_tests_properties(CMake.FileDownload PROPERTIES  PASS_REGULAR_EXPRESSION "file already exists with expected MD5 sum")
+add_test(CMake.FileDownloadBadHash "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/FileDownloadBadHashTest.cmake")
+set_tests_properties(CMake.FileDownloadBadHash PROPERTIES  WILL_FAIL "TRUE")
+add_test(CMake.FileUpload "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/FileUploadTest.cmake")
+add_test(CMake.ELF "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/ELFTest.cmake")
+add_test(CMake.EndStuff "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-Ddir:STRING=/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/EndStuffTest" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/EndStuffTest.cmake")
+add_test(CMake.GetPrerequisites "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-DConfiguration:STRING=" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/GetPrerequisitesTest.cmake")
+add_test(CMake.PolicyCheck "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-DCMake_BINARY_DIR:PATH=/home/jotunheim/Mashine/cmake-3.9.6" "-DCMake_SOURCE_DIR:PATH=/home/jotunheim/Mashine/cmake-3.9.6" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/PolicyCheckTest.cmake")
+add_test(CMake.CheckSourceTree "/home/jotunheim/Mashine/cmake-3.9.6/bin/cmake" "-DCMake_BINARY_DIR:PATH=/home/jotunheim/Mashine/cmake-3.9.6" "-DCMake_SOURCE_DIR:PATH=/home/jotunheim/Mashine/cmake-3.9.6" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-DHOME:STRING=/root" "-P" "/home/jotunheim/Mashine/cmake-3.9.6/Tests/CMakeTests/CheckSourceTreeTest.cmake")
